@@ -27,8 +27,12 @@
     \item 4. กำหนดให้ $F:[0,1]\rightarrow \mathbb{R}$ นิยามโดย $F\left ( x \right )=\int_{0}^{sin x} cos t dt$ จงหา ${F}'\left ( x \right )$\indent \\
     \begin{proof}  
         \hspace{1cm} ให้ $F\left ( x \right )=\int_{0}^{ x} cos t dt$ จากทบ. จะได้ว่า ${F}'\left ( x \right )=cos t $\\
-        \hspace{2.2cm} $F\left ( sin x \right )=\int_{0}^{ sin x} cos t dt$ \\
-
+        \hspace{2.2cm} $$F\left ( sin x \right )=\int_{0}^{ sin x} cos t dt$$ \\
+    \begin{eqnarray*}
+        \hspace{2.2cm} \frac{\mathrm{d} }{\mathrm{d} x}\int_{0}^{sin x} cos t dt &=& \frac{\mathrm{d} }{\mathrm{d} x}F\left ( sin x \right )\\
+        &=&cos x {F}'\left ( sinx \right )\\
+        &=&cos x  cos\left ( sinx \right )\\
+    \end{eqnarray*}
     \end{proof}
 
 \end{enumerate}

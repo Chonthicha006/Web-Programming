@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.3.28)  15 DEC 2023 13:30
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.3.28)  15 DEC 2023 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -548,6 +548,6 @@ Here is how much of TeX's memory you used:
  26861 multiletter control sequences out of 15000+600000
  474032 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,8n,119p,401b,301s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 73i,8n,119p,401b,309s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Topic006_MTH341.xdv (1 page, 9860 bytes).
+Output written on Topic006_MTH341.xdv (1 page, 9896 bytes).
