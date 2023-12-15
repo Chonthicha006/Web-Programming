@@ -24,24 +24,47 @@
 \raggedright
 
 \begin{enumerate}
-    \item จงเเสดงว่า ถ้า $p$ เป็นจำนวนเฉพาะที่ $p\geq 5$  แล้ว $p^{2}+2$ เป็นจำนวนประกอบ\\ 
+    \item 14.Prove Chain Rule Theorem: Let $I,J$ be intervals, $g : I\rightarrow \mathbb{R} $ such that $f\left ( J \right )\subseteq I$, and $ c\in J.$
+    If $f$ is differentiable at $c$ and $g$ is differentiable at $f\left ( c \right )$, then the composite function $g\circ f$
+    is differentiable at $c $ and $ {\left (g\circ f  \right )}'\left ( c \right )={g}'\left ( f\left ( c \right ) \right )\cdot {f}'\left ( c \right ).$
+    \\ \indent \\
     % \begin{proof} สมมติให้ $A$ เป็นเซ็ต
     % \end{proof}
-    
-    
+    เริ่มจากสมการต่อไปนี้\\
+    \hspace{1cm}$\frac{g\left (f\left ( x \right )  \right )-g\left ( f\left ( c \right ) \right )}{x-c}=\frac{g\left (f\left ( x \right )  \right )-g\left ( f\left ( c \right ) \right )}{f\left (x  \right )-f\left (c  \right )}\cdot \frac{f\left (x  \right )-f\left (c  \right ) }{x-c}$
+
+    เมื่อใส่ลิมิต $x$ เข้าใกล้ $a$ ทั้งสองข้าง อาจจะเกิดกรณีที่ $f\left ( x \right )-f\left ( c \right )=0$ ได้ ถึงแม้ว่า $ x\neq a $ เพื่อเลี่ยงปัญหาดังกล่าว
+    จะสร้างฟังก์ชันใหม่ขึ้นมา ดังบทพิสูจน์ต่อไปนี้ \\   
+
+
     \begin{proof}
-        \begin{enumerate}สมมติให้ $p$ เป็นจำนวนเฉพาะที่ $p\geq 5$ \\
-        \hspace{1cm.}พิจารณา $p=5$ และ $p^{2}\equiv  1 mod 3$\\       
-        %         \begin{center}   
-                
-        %                 $p=7$ และ $p^{2}\equiv 1 mod 3$\\
-        %                 $p=11$และ $p^{2}\equiv 1mod 3$\\
-        %                 $p=13$ และ $p^{2}\equiv1 mod 3$\\
-        %                 $p=17$ และ $p^{2}\equiv 1 mod 3$\\
-        %                 $p=19$ และ $p^{2}\equiv 1 mod 3$\\
-                        
-        %         \end{center}
-        % \hspace{1cm.}จะได้ว่า $p$ สามารถเขียนอยู่ในรูป $p=3k+1$ สำหรับบาง $k\in \mathbb{Z} $ \\
+        \begin{enumerate} ให้ $b=f\left ( c \right )$ และกำหนดฟังก์ชัน $h: I\rightarrow \mathbb{R}$ โดยที่ \\
+        \hspace{4cm} $ h(y)=\left\{\begin{matrix}
+            \frac{g(y)-g(b)}{y-b} ,y\neq b\\ 
+            g'\left ( b \right ) ,y=b
+            \end{matrix}\right.$\\
+        \hspace{1cm}จะได้ว่า  $h$ มีความต่อเนื่องที่ $b$ เพราะว่า $g$ มีอนุพันธ์ที่ $b=f\left ( c \right )$ \\
+        สังเกตว่า $g(y)-g(b)=h(y)(y-b)$ ทุก $y\in I$\\
+        แทน $y=f\left ( x \right )$ และ $b=f\left ( c \right )$ จะได้ว่า $g\left ( f\left ( x \right ) \right )-g\left ( f\left ( c \right ) \right )=h\left ( f(x) \right ) \left ( f\left ( x \right ) -f\left ( c \right )\right )$\\
+        ดังนั้น    \begin{eqnarray*}
+            \frac{g\left ( f\left ( x \right ) \right )-g\left ( f\left ( c \right ) \right )}{x-c}    &=&   h\left ( f(x) \right ) \cdot   \frac{ \left ( f\left ( x \right ) -f\left ( c \right )\right )}{x-c}\\
+            \lim_{x\rightarrow c}\frac{g\left ( f\left ( x \right ) \right )-g\left ( f\left ( c \right ) \right )}{x-c}  &=&\lim_{x\rightarrow c}   h\left ( f(x) \right ) \cdot \lim_{x\rightarrow c}  \frac{ \left ( f\left ( x \right ) -f\left ( c \right )\right )}{x-c}
+                \end{eqnarray*}
+
+        โดยทฤษฎีบท จะได้ว่า
+        \begin{eqnarray*}\hspace{1cm}
+         \lim_{x\rightarrow c}h\left ( f\left ( x \right ) \right )=h\left ( f\left ( c \right ) \right )=h\left ( b \right )\\
+        \end{eqnarray*}
+         ฉะนั้น \begin{eqnarray*}\hspace{1cm}   \lim_{x\rightarrow c}\frac{g\left ( f\left ( x \right ) \right )-g\left ( f\left ( c \right ) \right )}{x-c}  =h\left ( f\left ( c \right ) \right )\cdot{ f}'\left ( c \right )={g}'\left ( f\left ( c \right ) \right )\cdot {f}'\left ( c \right )\\
+        \end{eqnarray*}
+
+        นั่นคือ \begin{eqnarray*}
+        \hspace{1cm} {\left ( g\circ f \right )}' \left ( c \right )={g}'\left ( f\left ( c \right ) \right ){f}'\left ( c \right )
+        \end{eqnarray*}
+         
+         
+         
+         % \hspace{1cm.}จะได้ว่า $p$ สามารถเขียนอยู่ในรูป $p=3k+1$ สำหรับบาง $k\in \mathbb{Z} $ \\
         % \hspace{1cm.}นั่นคือ
         %         \begin{eqnarray*}
         %             p^{2}+2
