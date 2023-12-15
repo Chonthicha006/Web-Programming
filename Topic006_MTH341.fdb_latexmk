@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1702624412 "Topic006_MTH341.xdv" "Topic006_MTH341.pdf" "Topic006_MTH341" 1702624413 0
-  "Topic006_MTH341.xdv" 1702624412 9928 bf75f8912a7eeedca923ccf01c942288 "xelatex"
+["xdvipdfmx"] 1702625010 "Topic006_MTH341.xdv" "Topic006_MTH341.pdf" "Topic006_MTH341" 1702625010 0
+  "Topic006_MTH341.xdv" 1702625009 9928 65b688a75bd74de66ee65eec4bdcbd78 "xelatex"
   (generated)
   "Topic006_MTH341.pdf"
   (rewritten before read)
-["xelatex"] 1702624409 "c:/Users/cosA/OneDrive/Documents/GitHub/Web-Programming/Topic006_MTH341.tex" "Topic006_MTH341.xdv" "Topic006_MTH341" 1702624413 0
+["xelatex"] 1702625006 "c:/Users/cosA/OneDrive/Documents/GitHub/Web-Programming/Topic006_MTH341.tex" "Topic006_MTH341.xdv" "Topic006_MTH341" 1702625010 0
   "C:/Users/cosA/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1648443044 23671034 adc7ea166b6094c2112a01be63de76bb ""
   "C:/Users/cosA/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/cosA/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -58,9 +58,9 @@
   "C:/Users/cosA/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-thai.ldf" 1618246131 6244 5c32c866b6eeca6a986bb16196c2cef1 ""
   "C:/Users/cosA/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/polyglossia.sty" 1618246131 74783 c3c3272a1f55628f6cfcf9efe0a0c46a ""
   "C:/Users/cosA/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1623005690 4902 efb3d66683a2da2a232f71e3a571a899 ""
-  "Topic006_MTH341.aux" 1702624412 182 514303a5b71176ea728be7fed008c36a "xelatex"
-  "Topic006_MTH341.tex" 1702624408 5147 1de8e26f101ae144f9dd7b5964f2a30b ""
-  "c:/Users/cosA/OneDrive/Documents/GitHub/Web-Programming/Topic006_MTH341.tex" 1702624408 5147 1de8e26f101ae144f9dd7b5964f2a30b ""
+  "Topic006_MTH341.aux" 1702625009 182 514303a5b71176ea728be7fed008c36a "xelatex"
+  "Topic006_MTH341.tex" 1702625005 5147 56b38a9f63e2fbffb38db97773d1208b ""
+  "c:/Users/cosA/OneDrive/Documents/GitHub/Web-Programming/Topic006_MTH341.tex" 1702625005 5147 56b38a9f63e2fbffb38db97773d1208b ""
   (generated)
   "Topic006_MTH341.aux"
   "Topic006_MTH341.log"
